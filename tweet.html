@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tweet</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><button>Back</button></a>
+        <a href="registrasi.html"><button>Next</button></a>
+    </header>
+    
+    <div id="wrapper">
+
+        <div id="input">
+            <textarea name="name" id="tweet" cols="30" rows="10"></textarea><br>
+            <button onclick="submitForm(event)">Submit</button>
+        </div>
+
+        <div id="hasil">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, eos nostrum! Neque dolorum velit temporibus ut similique ea et maxime voluptate, sunt placeat mollitia officiis, saepe enim veritatis in explicabo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugiat harum quasi reprehenderit illum impedit architecto, non, dicta nisi eaque cupiditate temporibus nesciunt possimus alias corrupti esse tenetur repudiandae odio.</p>
+        </div>
+
+    </div>
+
+    <script>
+
+        let tweet = []
+
+        submitForm = (event) => {
+            event.preventDefault();
+            console.log(document.getElementById("tweet").value);
+        }
+
+        tweet.push(tweet)
+
+        for(let i = 0; i < tweet.length; i++) {
+            document.write(tweet[i])
+        }
+
+
+    </script>
+</body>
+</html>
